@@ -10,6 +10,6 @@ def step_when_input_numbers_and_press_add(context, num1: int, num2: int):
     context.result = context.calculator.add(num1, num2)
 
 @then('I should get "{expected_result:d}" as the result')
-def step_then_get_result(context, expected_result):
+def step_then_get_result(context, expected_result: int):
     assert context.result == int(expected_result), \
         f"Expected {expected_result}, but got {context.result}"
