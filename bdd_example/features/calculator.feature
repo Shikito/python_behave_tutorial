@@ -1,7 +1,7 @@
-Feature: Caluculator
-    As a user
-    I want to use a calculator to add numbers
-    So that I can get the correct result
+Feature: Calculator
+    I'm a user of calculator.
+    I want to add / sub some numbers.
+    I want to get correct result by using calculator.
 
     Scenario: Add two numbers
         Given I have a calculator
