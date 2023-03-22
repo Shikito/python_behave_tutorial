@@ -1,0 +1,9 @@
+psycopg2
+pandas
+matplotlib
+numpy
+ipdb
+tqdm
+pytest
+sqlalchemy
+behave
